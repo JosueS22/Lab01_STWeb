@@ -1,0 +1,149 @@
+html, body {
+    font-size: 4px;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.Encabezado {
+    align-items: baseline;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+    overflow: auto;
+}
+
+.Encabezado__izquierdo {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Encabezado__derecho {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Encabezado .Encabezado__izquierdo {
+    align-items: baseline;
+}
+
+.Encabezado .Encabezado__derecho {
+    align-items: baseline;
+}
+
+.Colegio {
+    align-items: baseline;
+    color: #00a09b;
+    font-size: 7rem;
+    font-weight: bold;
+    padding: 5rem 5rem 5rem 6rem;
+}
+
+.Libros__electronicos {
+    align-items: baseline;
+    color: #bdbdbd;
+    font-size: 4rem;
+    padding: 9rem 1rem 1rem 1rem;
+}
+
+.Contrasenas {
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Contrasenas__imagen {
+    background: url('images/unlock.jpg') no-repeat;
+    padding: 2rem 1rem 5rem 1rem;
+    width: 5rem;
+}
+
+.Contrasenas__titulo {
+    color: #00c4c0;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Usuario {
+    align-items: baseline;
+    display: inline-flex;
+    padding: 2rem 1rem 2rem 1rem;
+    font-size: 10rem;
+}
+
+.Usuario__imagen {
+    background: url('images/down_arrow.png') no-repeat;
+    padding: 1rem 2rem 3rem 0rem;
+    width: 10rem;
+}
+
+.Usuario__titulo {
+    align-items: baseline;
+    color: #00A09B;
+    font-size: 6rem;
+    font-weight: bold;
+    padding: 2rem 3rem 4rem 10rem;
+}
+
+.Contenido {
+    background: #f1f6f6;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.Paquetes .Paquetes__titulo {
+    color: #e1e6e6;
+    font-family: Montserrat;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.Paquetes {
+    background: #ffffff;
+
+}
+
+.book {
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    width: 226px;
+}
+
+.book__image {
+    background-position: center;;
+    background-size: cover;
+    height: 70rem
+}
+
+.book__footer {
+    background: white;
+    padding: 16px;
+    position: relative;
+}
+
+.book__title {
+    color: #019c97;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.book__size {
+    color: #777777;
+    font-size: 3rem;
+}
+
+.book__actions {
+    bottom: 0;
+    height: 14rem;
+    position: absolute;
+    right: 0;
+    width: 12rem;
+}
