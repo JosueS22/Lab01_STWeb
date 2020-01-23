@@ -93,7 +93,13 @@ body {
     padding: 2rem 3rem 4rem 10rem;
 }
 
-
+.Contenido {
+    background: #f1f6f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: auto;
+}
 
 .Paquetes .Paquetes__titulo {
     color: #e1e6e6;
@@ -106,7 +112,7 @@ body {
 .Paquetes {
     background: #ffffff;
     border-radius: 2rem;
-    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
 	justify-content: space-between;
 	margin-right: 5rem;
 	margin-bottom: 0rem;
@@ -124,8 +130,7 @@ h2 {
 	color: #00a09b;
 	font-size: 4rem;
 	font-family: Montserrat;
-	font-weight: bold;
-	text-transform: uppercase;	
+	font-weight: bold;	
 	padding: 3rem 4rem 3rem 10rem;
 }
 
@@ -133,6 +138,84 @@ h2 {
     background: url('images/agregar_paquete.png') no-repeat;
     justify-content: center;
     padding: 10rem 10rem 10rem 50rem;
+}
+
+.Paquetes__pie_de_pagina h2 {
+    text-transform: uppercase;
+}
+
+.Contenido__principal {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 100%
+}
+
+.Encabezado__contenido {
+    align-items: baseline;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    width: 100%;
+    overflow: auto;
+}
+
+.Editar__imagen {
+    background: url('images/editar.png') no-repeat;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem 2rem 0rem 1rem;
+}
+
+.Eliminar__imagen {
+    background: url(images/eliminar.png) no-repeat;
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem 2rem 1rem 1rem;
+}
+
+.Encabezado__izquierdo h2 {
+    font-family: sans-serif;
+    font-size: 7rem;
+    height: 3rem;
+    width: 60rem;
+}
+
+.Encabezado__contenido .Encabezado__derecho div{
+    border-radius: 5rem;
+    border: 1px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 3rem 6rem 3rem 6rem;
+}
+
+.Agregar__libro {
+    background: #00BC5D;
+}
+
+.Agregar__categoria {
+    background: #00BCB7;
+}
+
+.Idiomas {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15rem 0rem 5rem 1rem;
+    width: 100%;
+    overflow: auto;
+}
+
+.Idiomas h2 {
+    font-weight: bold;
+    padding: 0rem 3rem 0rem 8rem;
 }
 
 .Libros {
@@ -144,7 +227,10 @@ h2 {
     border-radius: 2rem;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
     display: block;
+    margin-top: 8rem;
     margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     overflow: hidden;
     width: 226px;
 }
